@@ -1,19 +1,19 @@
 .about_us {
-    max-width: 320px;
-    width: 100%;
-    text-align: center;
-    margin: 0;
+  max-width: 320px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
 }
 
 .profiles {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .about {
-    font-family: 'Rubik';
-    font-weight: Medium;
-    font-size: 24px;
-    color:#099d8d;
+  font-family: "Rubik";
+  font-weight: Medium;
+  font-size: 24px;
+  color: #099d8d;
 }
 
 .image-container {
@@ -26,63 +26,63 @@
 }
 
 img {
-    border-radius: 8px;
+  border-radius: 8px;
 }
 
 .names {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .description {
-    font-size: 16px;
-    color: #54585a;
+  font-size: 16px;
+  color: #54585a;
 }
 
 .items-icons {
-    width: 16px;
-    height: 18px;
-    display: inline-block;
-    box-sizing: border-box;
-    transition: transform 1s ease-in-out;
+  width: 16px;
+  height: 18px;
+  display: inline-block;
+  box-sizing: border-box;
+  transition: transform 1s ease-in-out;
 }
 
 .items-icons:hover {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
 .icons {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 0 100px;
-    margin: 16px 0 32px 0;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 100px;
+  margin: 16px 0 32px 0;
 }
 
-.fab, .fas {
-    color: #099d8d;
+.fab,
+.fas {
+  color: #099d8d;
 }
- 
+
 @media all and (min-width: 768px) {
-    .about_us {
-        max-width: 100vh;
-        margin: auto; 
-    }
-    .profiles  {
-        display:flex;
-        margin: 44px;
-    }
+  .about_us {
+    max-width: 100vh;
+    margin: auto;
+  }
+  .profiles {
+    display: flex;
+    margin: 44px;
+  }
 
-    .info-container {
-        display: row;
-        text-align: end;   
-    }
+  .info-container {
+    display: row;
+    text-align: end;
+  }
 
-    .icons {
-        width: 124px;
-        padding: 0;
-        display: inline-block;
-        /* margin: 5px, 0, 0, 0; */
-    }
-    .profiles:nth-child(odd) {
-        flex-direction: row-reverse;
-    }
+  .icons {
+    width: 124px;
+    padding: 0;
+    display: inline-block;
+  }
+  .profiles:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
 }
